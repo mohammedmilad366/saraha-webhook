@@ -1,0 +1,14 @@
+{
+  "name": "saraha-webhook",
+  "version": "1.0.0",
+  "main": "webhook.js",
+  "type": "module",
+  "scripts": {
+    "start": "node webhook.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "node-fetch": "^3.3.2"
+  }
+}
